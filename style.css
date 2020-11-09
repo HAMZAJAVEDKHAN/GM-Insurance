@@ -45,9 +45,12 @@
             flex-direction: column !important;
             justify-content: center !important;
             align-items: center !important;
-            row-gap: 1.2em;
-            padding: 0% !important;
-            padding-top: 8em !important;
+            row-gap: 1.6em;
+            padding: 5% !important;
+            padding-top: 12em !important;
+            margin-left: 0.6em !important;
+            margin-bottom: 1em !important;
+            transform: scale(0.85) !important;
         }
         .input-icon{
             margin-left: 0.2em !important;
@@ -122,8 +125,78 @@
         .info-sec-one .img-sec{
             margin-top: 3em;
         }
-
-
+    
+        #head{
+            margin-right: 1em;
+            
+        }
+        nav{
+            padding: 0em;
+            margin: 0%;
+        }
+        #logo-head{
+            width: 9em !important;
+            height: auto !important;
+        }
+        .landing{
+            margin: 0% !important;
+            height: auto !important;
+        }
+        .sec-compare{
+            margin: 0% !important;
+        }
+        .btn-sec{
+            width: 100% !important;
+            margin: 0% !important;
+            padding: 0% !important;
+            transform: scale(0.8) !important;
+        }
+        .main-btn{
+            /* width: 15em; */
+            margin-left: -2.8em !important;
+        }
+        .offers{
+            margin: 0% !important;
+        }
+        .offer-content{
+            width: 90% !important;
+            margin: 0% auto !important;
+        }
+        .offer-items, .item-box{
+            margin-left: 0px !important;
+            padding-left: 15px !important;
+        }
+        .notify-sec{
+            margin-left: 0px !important;
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+            row-gap: 1em !important;
+        }
+        .notify-sec h3{
+            text-align: center;
+        }
+        #notify-btn{
+            width: 80%;
+            text-align: center;
+            margin-left: 0.2em !important;
+        }
+        .footer{
+            /* margin-left:  0% !important; */
+            margin: 0% !important
+        }
+        #one{
+            margin-left: -1em !important;
+        }
+        #two, #three ,#four{
+            margin-left: -2em !important;
+        }
+        .copyright p{
+            margin-left: 3.3em !important;
+            margin-top: -5px !important;
+        }
+        
     }
 
     @media only screen and (max-width:991px){
