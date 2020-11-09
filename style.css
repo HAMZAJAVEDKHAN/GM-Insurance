@@ -31,6 +31,10 @@
             body{
                 overflow-x: hidden;
             }
+            .sec-compare-heading{
+                width: 80% !important;
+                margin: 0% auto !important;
+            }
         .header-sec{
             flex-direction: column !important;
             row-gap: 2em;
